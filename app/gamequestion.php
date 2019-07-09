@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class gamequestion extends Model
+class GameQuestion extends Model
 {
     //
 }
