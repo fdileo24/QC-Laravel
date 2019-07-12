@@ -11,10 +11,15 @@
 |
 */
 
-Route::group(['middleware' => 'web'], function () {
 Route::get('/','HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
-/*Route::get('/home', 'HomeController@index')->name('home');*/
 Auth::routes();
 Route::get('/Faqs','FaqsController@index');
+Route::group(['middleware' => 'web'], function () {
+/*Route::get('/home', 'HomeController@index')->name('home');*/
+Route::get('/Profile','ProfileController@index');
+Route::get('/Game','GameController@index');
+Route::post('/Game','GameController@NextQuestion');
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
 });

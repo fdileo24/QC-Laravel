@@ -1,6 +1,6 @@
  
-    <footer class="pie">
-        <div class="container fluid">
+    <footer class="pie ">
+        <div class="container fluid ">
         <div class="row">
             <section class="col-sm-12 col-md-6 col-lg-6">
             <h4>Costumer Service</h4>

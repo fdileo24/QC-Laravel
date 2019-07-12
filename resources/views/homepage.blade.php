@@ -47,7 +47,7 @@
                     Comparte tu experiencia!
                     </h5>
                     <p class="about2">
-                    Puedes subir tu video jugando a las redes sociales etiquetandonos a <a href=""> @QueerCheer </a> !
+                    Puedes subir tu video jugando a las redes sociales etiquetandonos a <a href="{{ url('/Game') }}"> @QueerCheer </a> !
                     <br>
                     Compartiremos los más divertidos!
                     </p>        

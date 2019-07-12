@@ -11,7 +11,6 @@ class FaqsController extends Controller
     //
     public function index(){
         $preguntas = DB::table('faqs')->get();
-        dd($preguntas);
         return view('Faqs')->with('preguntas',$preguntas);
     }
 }
